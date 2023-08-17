@@ -9,5 +9,5 @@ This is our github organization offering tools for sonification and audio coding
 - For convenience we offer the [ison conda environment](../ison-conda.yml) for our sonification tool chain which should just work. To install all packages on your system, please download the ison-conda.yml
 - and in your shell do `conda env create -n ison --file ison-conda.yml`
 - alternatively, to augment your personal conda environment 'myenv' do
-    `conda env update --name myenv --file local.yml --prune`
+    `conda env update --name myenv --file ison-conda.yml --prune`
   
