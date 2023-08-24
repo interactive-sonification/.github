@@ -1,0 +1,56 @@
+name: ison
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python<3.10
+  #> dev
+  
+  #- pyscaffold
+    # setuptools
+  #- tox
+  #- pre-commit
+  #- nbstripout
+  #- check-manifest
+  #- black
+  #- isort
+  #- pycodestyle
+  
+  #- pytest
+  #- pytest-cov
+  #- pytest-timeout
+  
+  #> docs
+  #- pandoc
+  #- pyqt
+  #- myst-parser
+  #- sphinx
+  #- sphinx-autoapi
+  #- furo
+  #- nbsphinx
+  #- nbsphinx-link  
+  #- numpydoc
+  #- gitpython
+  #- beautifulsoup4
+
+  #> deps / examples
+  - rise
+    # notebook
+    # ipykernel
+  - scipy>=1.7.3
+  - ipympl
+    # matplotlib
+    # ipywidgets
+  - seaborn
+    # pandas
+    # numpy
+  - attrs
+  - psutil
+  - pyaudio>=0.2.11
+  - pip
+  - pip:
+    - pyamapping
+    - pya
+    - sc3nb
+    - mesonic
+    - sonecules
